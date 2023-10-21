@@ -1,0 +1,22 @@
+<!--pages/ord_form/ord_form.wxml-->
+<button  type="primary" size="mini" bindtap="gotoneword">发布</button>
+<view wx:if="{{item.status==0}}" wx:for="{{list}}"  bindtap="gotospdetail" id="{{item.id}}" class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../image/zhutu.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+        <view class="single_goods_name">
+          <text>代取快递订单</text>
+        </view>
+        <view class="single_goods_address">
+          <text>{{item.scare}}</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥8.00</text>
+          <view class="carImgWrap">
+            <image src="../../image/car.png" class="carImg"></image>
+          </view>
+        </view>
+    
+    </view>
+  </view>

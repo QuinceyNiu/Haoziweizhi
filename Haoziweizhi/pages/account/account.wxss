@@ -1,0 +1,5 @@
+/* pages/account/account.wxss */
+.single_goods_image {
+  width: 380px;
+  height: 414px;
+}

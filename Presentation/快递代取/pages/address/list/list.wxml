@@ -1,0 +1,9 @@
+<!--pages/address/list.wxml-->
+<view class="address-list">
+<scroll-view class="scroll-list"  scroll-y="true" style="height: 100%" bindscrolltolower="lower">
+
+  <button>
+    <text class="editziti">新增地址</text>
+  </button>
+ </scroll-view>
+ </view>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="z">    校园快递代取</view>
+  <view class="gonggao">小件一元起</view>
+  <view class="gonggao">中件三元起</view>
+  <view class="gonggao">大件五元起</view>

@@ -1,0 +1,37 @@
+<!--pages/neword/neword.wxml-->
+<view class="downView">
+    <form bindsubmit="formBindsubmit" bindreset="formReset">
+        <view  class="first">
+            <label class="board-lab">姓名</label>
+            <input type="text" class="board-input" name="username" placeholder="请输入您的姓名！" />
+        </view>
+         <view class="second">
+            <label class="board-lab">地址</label>
+            <input type="text" class="board-input" name="address" placeholder="请输入您的地址！" />
+        </view>
+        <view class="second">
+            <label class="board-lab">手机号</label>
+            <input type="number" class="board-input" name="phone" placeholder="请输入您的电话！" />
+        </view>
+        <view class="second">
+            <label class="board-lab">性别</label>
+            <radio-group class="radio-group" name="sex">
+                <label class="radio" wx:for="{{sexs}}">
+                    <radio color="red" value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+                </label>
+            </radio-group>
+        </view>
+        <view  class="second">
+            <label class="board-lab">快递种类</label>
+            <radio-group class="radio-group" name="scare">
+                <label class="radio" wx:for="{{items}}">
+                    <radio color="red" value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+                </label>
+            </radio-group>
+        </view>
+
+     
+        <button bindtap="gotoordform" class="click" formType="submit">提交</button>
+     
+    </form>
+</view>

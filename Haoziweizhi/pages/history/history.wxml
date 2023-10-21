@@ -1,0 +1,29 @@
+<form bindsubmit="formBindsubmit" bindreset="formReset">
+        <view  class="first">
+            <label class="board-lab">电话</label>
+            <input type="text" class="board-input" name="dphone" placeholder="请输入您的电话！" />
+        </view>
+        <button type="primary" bindtap="gotoordform" class="click" formType="submit">查询</button>  
+ </form>
+<view wx:if="{{item.status==2}}"  wx:for="{{postList}}"  class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../image/zhutu.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+        <view class="single_goods_name">
+          <text>已送达订单</text>
+        </view>
+        <view class="single_goods_address">
+          <text>客户：{{item.username}}</text>
+        </view>
+        <view class="single_goods_address">
+          <text>客户电话：{{item.phone}}</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥8.00</text>
+          <view class="carImgWrap">
+            <image src="../../image/car.png" class="carImg"></image>
+          </view>
+        </view>
+    </view>
+  </view>

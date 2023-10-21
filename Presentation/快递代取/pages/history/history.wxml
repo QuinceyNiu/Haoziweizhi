@@ -1,0 +1,21 @@
+<!--pages/history/history.wxml-->
+<view wx:if="{{status==2}}" class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../image/zhutu.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+        <view class="single_goods_name">
+          <text>客户姓名：{{username}}</text>
+        </view>
+        <view class="single_goods_name">
+          <text>客户电话：{{phone}}</text>
+        </view>
+        <view class="single_goods_name">
+          <text>骑手：{{dname}}</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥8.00</text>
+        </view>
+    </view>
+  </view>
+

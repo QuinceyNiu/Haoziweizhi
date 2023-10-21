@@ -1,0 +1,129 @@
+.downView{
+  margin-left: 20rpx;
+  margin-top: 60rpx;
+  width: 730rpx;
+}
+
+.board-view{
+  display:flex;
+  flex-flow: wrap;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  border-top-style:none;
+border-right-style:none;
+border-bottom-style:solid;
+border-left-style:none;
+  border-color:#98bf21;
+  border-width:2rpx;
+  text-align:right;
+  height: 40rpx;
+  font-size: 32rpx;
+}
+
+.board-lab{
+  margin-top: -8rpx;
+  width: 20%;
+  text-align:left;
+  padding-left: 0;
+padding-right: 0;
+}
+
+.board-input{
+  margin-top: -18rpx;
+  width: 75%;
+}
+
+.board-text{
+  margin-top: -10rpx;
+  width: 75%;
+}
+
+.radio-group{
+  margin-top: -10rpx;
+  width: 75%;
+}
+
+.radio{
+  margin: 40rpx;
+  margin-right: 0rpx;
+}
+
+.submitBtn{
+font-size: 34rpx;
+border: 2rpx solid #98bf21;	/*边框： 1的宽度 实线 颜色*/
+width: 100%;
+position:absolute;
+left:20%;
+bottom:100rpx;
+}
+
+page{
+  left: 0rpx;
+  right: 0rpx;
+  background-color: white;
+}
+
+.first{
+  width: 90%;
+  height: 100rpx;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+}
+
+.plas{
+  font-size: 30rpx;
+  color: #CCCCCC;
+}
+
+.inputs{
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #000;
+  margin: auto;
+  margin-left: 20rpx;
+  width: 100%；
+}
+
+.second{
+  width: 90%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+}
+
+.cha{
+  width: 90%;
+  height: 50rpx;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.no{
+  color: black;
+  font-size: 28rpx;
+  margin-left: 15rpx;
+  font-family: PingFangSC-regular;
+}
+.click{
+  width: 20%;
+  height: 100rpx;
+  margin-top: 10%;
+  background-color: #F76968;
+  text-align: center;
+  color: rgb(240, 236, 236);
+  font-size: 33rpx;
+}

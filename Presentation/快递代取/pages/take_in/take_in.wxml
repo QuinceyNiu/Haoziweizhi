@@ -1,0 +1,21 @@
+<view wx:if="{{status==1}}" class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../image/zhutu.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+      <navigator url="../qsdetail/qsdetail">
+        <view class="single_goods_name">
+          <text>代取快递订单</text>
+        </view>
+        <view class="single_goods_address">
+          <text>骑手：{{dname}}</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥8.00</text>
+          <view class="carImgWrap">
+            <image src="../../image/car.png" class="carImg"></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
